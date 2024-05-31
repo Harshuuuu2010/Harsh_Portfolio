@@ -846,3 +846,59 @@ footer{
         width: 100%;
     }
 }
+/* Responsive for Mobile */
+@media (max-width: 768px) {
+    nav {
+        padding-inline: 5vw;
+        height: 70px;
+        line-height: 70px;
+    }
+
+    .nav-name {
+        font-size: 24px;
+    }
+
+    .nav-link {
+        padding-inline: 10px;
+        margin-inline: 10px;
+    }
+
+    .featured-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .featured-text {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .featured-name {
+        font-size: 36px;
+    }
+
+    .featured-image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .featured-text-btn {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .social_icons {
+        justify-content: center;
+    }
+
+    .about-image-box, .image {
+        width: 250px;
+        height: 250px;
+    }
+
+    .contact-info {
+        padding-inline: 20px;
+    }
+}
