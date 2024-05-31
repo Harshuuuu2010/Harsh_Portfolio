@@ -874,7 +874,7 @@ footer{
     }
 
     .featured-name {
-        font-size: 36px;
+        font-size: 30px;
     }
 
     .featured-image {
@@ -882,15 +882,32 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 100px;
+        
     }
 
     .featured-text-btn {
         flex-direction: column;
         gap: 10px;
+        
+    }
+    .featured-text-info{
+        text-align: justify;
+    }
+    .scroll-btn{
+        display: none;
     }
 
     .social_icons {
         justify-content: center;
+    }
+    .project1 .E_commerce{
+        text-align: justify;
+        font-size: 15px;
+    }
+    .project2 .Netflix{
+        text-align: justify;
+        font-size: 15px;
     }
 
     .about-image-box, .image {
